@@ -7,7 +7,7 @@
   <meta name="description" content="Houston's largest selection of ready-made picture frames, custom framing, hand-carved frames, oil paintings, and framed mirrors. Family owned 27+ years. 3815 Fondren Rd, Houston TX 77063." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -49,7 +49,7 @@
       backdrop-filter: blur(16px);
       border-bottom: 1px solid rgba(255,255,255,0.06);
     }
-    .nav-logo { font-family: var(--display); font-size: 1.1rem; font-weight: 800; letter-spacing: -0.01em; color: var(--white); text-decoration: none; }
+    .nav-logo { font-family: var(--display); font-size: 1.1rem; font-weight: 700; letter-spacing: 0em; color: var(--white); text-decoration: none; }
     .nav-logo span { color: var(--gold); }
     .nav-links { display: flex; gap: 2rem; list-style: none; }
     .nav-links a { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray-lt); text-decoration: none; transition: color 0.2s; }
@@ -88,9 +88,9 @@
     .hero-h1 {
       font-family: var(--display);
       font-size: clamp(2.6rem, 6vw, 5.5rem);
-      font-weight: 800;
-      line-height: 1.05;
-      letter-spacing: -0.03em;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
       margin-bottom: 1.2rem;
     }
     .hero-h1 span { color: var(--gold); }
@@ -115,8 +115,8 @@
     .stat:last-child { border-right: none; }
     .stat-n {
       display: block;
-      font-family: var(--display); font-size: 1.75rem; font-weight: 800;
-      color: var(--gold); line-height: 1; letter-spacing: -0.02em;
+      font-family: var(--display); font-size: 1.6rem; font-weight: 700;
+      color: var(--gold); line-height: 1; letter-spacing: 0em;
     }
     .stat-l {
       display: block;
@@ -151,7 +151,7 @@
     .label::after { content: ''; width: 24px; height: 1px; background: var(--gold); opacity: 0.4; flex-shrink: 0; }
     .h2 {
       font-family: var(--display); font-size: clamp(1.9rem, 3.5vw, 3rem);
-      font-weight: 800; line-height: 1.1; letter-spacing: -0.025em; margin-bottom: 1rem;
+      font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; margin-bottom: 1rem;
     }
     .h2 span { color: var(--gold); }
     .body-text { font-size: 0.95rem; color: var(--gray-lt); line-height: 1.8; max-width: 500px; }
@@ -167,7 +167,7 @@
       display: inline-flex; align-items: center; gap: 1rem;
       background: var(--gold); padding: 0.85rem 1.3rem; margin-top: 1.8rem;
     }
-    .about-pill-n { font-family: var(--display); font-size: 1.8rem; font-weight: 800; color: var(--black); line-height: 1; }
+    .about-pill-n { font-family: var(--display); font-size: 1.8rem; font-weight: 700; color: var(--black); line-height: 1; }
     .about-pill-l { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(0,0,0,0.65); line-height: 1.35; }
     .about-text p { margin-bottom: 1rem; }
     .about-text .body-text:last-of-type { margin-bottom: 1.6rem; }
@@ -195,7 +195,7 @@
     .cat-card:hover .cat-card-img { filter: brightness(0.9) saturate(1.1); transform: scale(1.04); }
     .cat-card-body { padding: 1.3rem 1.2rem 1.5rem; }
     .cat-num { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; margin-bottom: 0.3rem; }
-    .cat-name { font-family: var(--display); font-size: 1.1rem; font-weight: 700; color: var(--white); margin-bottom: 0.4rem; letter-spacing: -0.01em; }
+    .cat-name { font-family: var(--display); font-size: 1.1rem; font-weight: 600; color: var(--white); margin-bottom: 0.4rem; letter-spacing: 0em; }
     .cat-desc { font-size: 0.82rem; color: var(--gray-lt); line-height: 1.6; }
     .cat-bar { display: block; width: 24px; height: 2px; background: var(--gold); margin-top: 1rem; transition: width 0.3s; }
     .cat-card:hover .cat-bar { width: 48px; }
@@ -206,13 +206,13 @@
     .why-item { display: flex; gap: 1rem; padding: 1.2rem 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
     .why-item:last-child { border-bottom: none; }
     .why-icon { flex-shrink: 0; width: 20px; height: 20px; margin-top: 0.05rem; }
-    .why-title { font-family: var(--display); font-size: 0.92rem; font-weight: 700; color: var(--white); margin-bottom: 0.2rem; letter-spacing: -0.01em; }
+    .why-title { font-family: var(--display); font-size: 0.92rem; font-weight: 600; color: var(--white); margin-bottom: 0.2rem; letter-spacing: 0em; }
     .why-desc { font-size: 0.83rem; color: var(--gray-lt); line-height: 1.65; }
     .why-boxes { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; }
     .why-box { background: var(--gray-dk); border: 1px solid rgba(201,168,76,0.12); padding: 1.7rem 1.2rem; text-align: center; }
     .why-box.gold { background: var(--gold); border: none; grid-column: span 2; padding: 2rem; }
-    .why-box-n { font-family: var(--display); font-size: 2.2rem; font-weight: 800; color: var(--gold); line-height: 1; letter-spacing: -0.03em; }
-    .why-box.gold .why-box-n { color: var(--black); font-size: 2.6rem; }
+    .why-box-n { font-family: var(--display); font-size: 2rem; font-weight: 700; color: var(--gold); line-height: 1; letter-spacing: -0.01em; }
+    .why-box.gold .why-box-n { color: var(--black); font-size: 2.4rem; }
     .why-box-l { font-size: 0.67rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gray-lt); margin-top: 0.4rem; }
     .why-box.gold .why-box-l { color: rgba(0,0,0,0.6); }
 
@@ -239,7 +239,7 @@
       position: absolute; bottom: -1.2rem; right: -1.2rem;
       background: var(--gold); padding: 1.2rem 1.5rem; text-align: center;
     }
-    .commercial-badge-n { font-family: var(--display); font-size: 1.6rem; font-weight: 800; color: var(--black); line-height: 1; }
+    .commercial-badge-n { font-family: var(--display); font-size: 1.6rem; font-weight: 700; color: var(--black); line-height: 1; }
     .commercial-badge-l { font-size: 0.62rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(0,0,0,0.65); margin-top: 0.25rem; }
     .commercial-list { list-style: none; margin-top: 1.5rem; }
     .commercial-item { display: flex; align-items: center; gap: 0.75rem; padding: 0.65rem 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 0.9rem; color: var(--gray-lt); }
@@ -263,7 +263,7 @@
     .h-day { color: var(--gray-lt); }
     .h-time { color: var(--white); font-weight: 500; }
     .form-wrap { background: var(--charcoal); padding: 2rem; border: 1px solid rgba(201,168,76,0.1); }
-    .form-title { font-family: var(--display); font-size: 1.3rem; font-weight: 700; margin-bottom: 1.4rem; letter-spacing: -0.01em; }
+    .form-title { font-family: var(--display); font-size: 1.3rem; font-weight: 600; margin-bottom: 1.4rem; letter-spacing: 0em; }
     .fg { margin-bottom: 1rem; }
     .fl { font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gray-lt); display: block; margin-bottom: 0.4rem; font-weight: 500; }
     input, select, textarea {
@@ -284,7 +284,7 @@
 
     /* MAP CTA */
     .map-cta { background: var(--gold); padding: 3.2rem 2rem; text-align: center; }
-    .map-cta h2 { font-family: var(--display); font-size: clamp(1.5rem, 2.8vw, 2.2rem); font-weight: 800; color: var(--black); margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+    .map-cta h2 { font-family: var(--display); font-size: clamp(1.5rem, 2.8vw, 2.2rem); font-weight: 700; color: var(--black); margin-bottom: 0.5rem; letter-spacing: -0.01em; }
     .map-cta p { font-size: 0.95rem; color: rgba(0,0,0,0.6); margin-bottom: 1.5rem; }
 
     /* FOOTER */
@@ -293,12 +293,48 @@
       padding: 2rem 3rem;
       display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;
     }
-    .foot-brand { font-family: var(--display); font-size: 0.95rem; font-weight: 800; }
+    .foot-brand { font-family: var(--display); font-size: 0.95rem; font-weight: 700; }
     .foot-brand span { color: var(--gold); }
     .foot-copy { font-size: 0.72rem; color: var(--gray-md); text-align: center; }
     .foot-links { display: flex; gap: 1.5rem; list-style: none; }
     .foot-links a { font-size: 0.72rem; color: var(--gray-md); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 500; transition: color 0.2s; }
     .foot-links a:hover { color: var(--gold); }
+
+    /* CAT NAV */
+    .cat-nav {
+      background: var(--charcoal);
+      border-bottom: 1px solid rgba(201,168,76,0.15);
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .cat-nav::-webkit-scrollbar { display: none; }
+    .cat-nav-inner {
+      display: flex;
+      gap: 0;
+      min-width: max-content;
+      padding: 0 1rem;
+    }
+    .cat-btn {
+      display: inline-block;
+      font-family: var(--body);
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--gray-lt);
+      text-decoration: none;
+      padding: 0.85rem 1.1rem;
+      white-space: nowrap;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .cat-btn:hover { color: var(--gold); border-bottom-color: var(--gold); }
+    .cat-btn-cta {
+      color: var(--gold);
+      border-bottom-color: var(--gold);
+      font-weight: 600;
+    }
 
     /* RESPONSIVE */
     @media (max-width: 960px) {
@@ -326,6 +362,23 @@
 <body>
 
 <div class="banner">Website Preview — Designed by Uplink Ads</div>
+
+<!-- CATEGORY NAV -->
+<div class="cat-nav">
+  <div class="cat-nav-inner">
+    <a href="#about" class="cat-btn">About Us</a>
+    <a href="#frames" class="cat-btn">Custom Framing</a>
+    <a href="#frames" class="cat-btn">Ready Made Frames</a>
+    <a href="#frames" class="cat-btn">Hand Carved Frames</a>
+    <a href="#frames" class="cat-btn">Oil Paintings</a>
+    <a href="#frames" class="cat-btn">Framed Mirrors</a>
+    <a href="#frames" class="cat-btn">Framed Art &amp; Prints</a>
+    <a href="#commercial" class="cat-btn">Commercial</a>
+    <a href="#frames" class="cat-btn">Accessories</a>
+    <a href="#contact" class="cat-btn">FAQs</a>
+    <a href="#contact" class="cat-btn cat-btn-cta">Contact Us</a>
+  </div>
+</div>
 
 <!-- NAV -->
 <nav>
